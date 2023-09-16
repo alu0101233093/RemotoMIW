@@ -23,5 +23,15 @@ public class Main {
             mul *= i;
             System.out.println("mul = " + mul);
         }
+        int fibonacci = 1;
+        int sum = 1;
+        int tmp = 0;
+        for (int i = 1; i <= 5; i++) {
+            // 1 1 2 3 5 8 13 21 ...
+            tmp = sum; // tmp = 5
+            sum = sum + fibonacci; // sum = 5 + 3 = 8
+            fibonacci = tmp; // fibonacci = 5
+            System.out.println("fibonacci = " + sum);
+        }
     }
 }
