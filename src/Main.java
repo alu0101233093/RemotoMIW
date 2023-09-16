@@ -19,7 +19,7 @@ public class Main {
             System.out.println("sum = " + sum);
         }
         int mul = 1;
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 20; i++) {
             mul *= i;
             System.out.println("mul = " + mul);
         }
